@@ -4,7 +4,8 @@ var paths = {
     definitions:[
       'www/lib/dt-jquery/dt-jquery.d.ts',
       'www/lib/dt-angular/angular.d.ts',
-      'www/lib/dt-angular/angular-animate.d.ts'
+      'www/lib/dt-angular/angular-animate.d.ts',
+      'typedefinitions/*.ts'
     ]
   }
 };
