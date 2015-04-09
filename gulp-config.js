@@ -1,4 +1,12 @@
+var src = 'src';
+var www = 'www';
+
 var paths = {
+  src: {
+    html: src + '/**/*.html',
+    scripts: src + '/**/*.ts',
+    root: src
+  },
   sass: ['./scss/**/*.scss'],
   typescript:{
     definitions:[
@@ -7,6 +15,9 @@ var paths = {
       'www/lib/dt-angular/angular-animate.d.ts',
       'typedefinitions/*.ts'
     ]
+  },
+  www:{
+    root: www
   }
 };
 

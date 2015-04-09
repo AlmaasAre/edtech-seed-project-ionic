@@ -4,6 +4,11 @@ var concat = require('gulp-concat');
 
 gulp.$paths = require('./gulp-config.js');
 
+gulp.$handleError = function handleError(err) {
+  console.error(err.toString());
+  this.emit('end');
+};
+
 /**
  * Log a message or series of messages using chalk.
  * Can pass in a string, object or array.
