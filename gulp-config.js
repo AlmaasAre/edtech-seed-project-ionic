@@ -8,6 +8,9 @@ var paths = {
     root: src
   },
   sass: ['./scss/**/*.scss'],
+  test: {
+    spec: src + '/**/*.spec.js'
+  },
   typescript:{
     definitions:[
       'www/lib/dt-jquery/dt-jquery.d.ts',
@@ -17,7 +20,10 @@ var paths = {
     ]
   },
   www:{
-    root: www
+    root: www,
+    css: www + '/**/*.css',
+    templates: www + '/ui/templates',
+    scripts: www + '/**/*.js'
   }
 };
 

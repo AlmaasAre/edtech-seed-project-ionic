@@ -19,5 +19,5 @@ gulp.task('templates', function () {
       module: 'app.templatecache',
       standalone: true
     }))
-    .pipe(gulp.dest(paths.www.root + '/'));
+    .pipe(gulp.dest(paths.www.templates + '/'));
 });
